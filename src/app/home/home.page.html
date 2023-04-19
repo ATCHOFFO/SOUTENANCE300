@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Connexion ou Inscription
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="auth-form">
+
+
+
+  <div class="logo">
+    <ion-icon color="black" name="person-circle-outline"></ion-icon> 
+  </div>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/registration']" expand="block" color="primary">inscription</ion-button>
+        <span class="divider line one-line">ou</span>
+        <span class="already">    vous etes deja utilisateur?</span>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger">Connexion</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

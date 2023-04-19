@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>acceuil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  
+  
+  <ion-button type="submit" color="primary" expand="block" [routerLink]="['/liste-candidats']"><ion-icon name="documents-outline"></ion-icon>Liste des candidats</ion-button>
+  <ion-button type="submit" color="secondary" expand="block" [routerLink]="['/resultat-vote']"><ion-icon name="download-outline"></ion-icon>Resultats du vote</ion-button>
+</ion-content>
